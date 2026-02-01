@@ -7,7 +7,7 @@
  * 3. Замените обычную функцию на стрелочную функцию
  */
 
-function isArrayEmpty(inputArray) {
+/*function isArrayEmpty(inputArray) {
   if (inputArray.length > 0) {
     return 'Массив не пустой'
   } else {
@@ -16,12 +16,12 @@ function isArrayEmpty(inputArray) {
 }
 
 console.log(isArrayEmpty([1, 3]))
-console.log(isArrayEmpty([]))
+console.log(isArrayEmpty([]))*/
 
 
 // Задача 1
 
-function isArrayEmpty(inputArray) {
+/*function isArrayEmpty(inputArray) {
   if (inputArray.length > 0) {
     return 'Массив не пустой'
   } 
@@ -30,16 +30,16 @@ function isArrayEmpty(inputArray) {
 }
 
 console.log(isArrayEmpty([1, 3]))
-console.log(isArrayEmpty([]))
+console.log(isArrayEmpty([]))*/
 
 // Задача 2
 
-function isArrayEmpty(inputArray) {
+/*function isArrayEmpty(inputArray) {
   return inputArray.length > 0 ? 'Массив не пустой' : 'Массив пустой'
 }
 
 console.log(isArrayEmpty([1, 3]))
-console.log(isArrayEmpty([]))
+console.log(isArrayEmpty([]))*/
 
 // Задача 3
 
