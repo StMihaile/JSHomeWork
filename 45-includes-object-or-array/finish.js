@@ -8,6 +8,15 @@
  * вам необходимо сначала преобразовать каждый элемент "inputArray" в строку,
  * а затем применить метод "includes" с аргументом, который также будет преобразован в строку
  */
+function isElementInArray(searchElement, inputArray) {
+  if (typeof searchElement !== 'object') {
+    return inputArray.includes(searchElement)
+  }
+
+  return inputArray
+    .map((element) => JSON.stringify(element))
+    .includes(JSON.stringify(searchElement))
+}
 
 const tags = [
   ['javascript', 'es6'],
